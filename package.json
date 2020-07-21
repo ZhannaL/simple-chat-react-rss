@@ -2,7 +2,7 @@
   "name": "simple-react-chat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhannal.github.io/ws-react-chat/",
+  "homepage": "https://zhannal.github.io/simple-chat-react-rss/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
