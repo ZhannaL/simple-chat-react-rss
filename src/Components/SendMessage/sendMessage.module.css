@@ -1,0 +1,23 @@
+.sendingWrapper {
+  grid-area: sending;
+}
+
+.sendingBlock {
+  display: flex;
+  align-items: center;
+
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.input {
+  width: 100%;
+  padding: 2px 10px;
+  font-size: 20px;
+}
+
+.buttonSend {
+  border: none;
+  background: none;
+  /* padding: 4px; */
+}

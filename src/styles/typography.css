@@ -1,0 +1,42 @@
+:root {
+  --font-primary: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --font-secondary: 'helvetica neue', 'system-ui', 'segoe ui', 'helvetica',
+    'arial', sans-serif;
+
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+
+  --text-xs: calc(1em / var(--text-scale-ratio) / var(--text-scale-ratio));
+  --text-s: calc(1em / var(--text-scale-ratio));
+  --text-m: var(--text-base-size);
+  --text-l: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio)
+  );
+  --text-xxl: calc(
+    1em * var(--text-scale-ratio) * var(--text-scale-ratio) *
+      var(--text-scale-ratio) * var(--text-scale-ratio)
+  );
+
+  --heading-line-height: 1.2;
+  --body-line-height: 1.4;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0 !important;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  line-height: var(--body-line-height);
+}

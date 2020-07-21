@@ -1,0 +1,16 @@
+.usersWrapper {
+  grid-area: user;
+}
+
+.list {
+  padding: 8px;
+  border-radius: 6px;
+  /* background-color: #fff; */
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 75%;
+}
