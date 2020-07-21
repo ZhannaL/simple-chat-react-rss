@@ -50,21 +50,22 @@ const ChatBlock = () => {
   const notificationAudio = new Audio(notification);
   useSocket((message) => {
     // console.log('message', message);
+
+    if (document.visibilityState !== 'visible') {
+      if (message.length !== 0 && flagIsNew) {
+        newMessagePush(message[0].from, message[0].message);
+        playSound(notificationAudio);
+        handleNewMessageFavicon();
+        handleNewMessageTitle();
+      }
+    }
+
     if (flagIsNew) {
       setMessages([...messages, ...message.reverse()]);
     } else {
       setMessages(message.reverse());
     }
     setFlagIsNew(true);
-
-    if (document.visibilityState !== 'visible') {
-      handleNewMessageFavicon();
-      handleNewMessageTitle();
-      if (message.length !== 0) {
-        newMessagePush(message[0].from, message[0].message);
-        playSound(notificationAudio);
-      }
-    }
   });
 
   useSocketConnect(() => {
