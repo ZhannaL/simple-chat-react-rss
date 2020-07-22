@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76b909793a08ee183d60a19346aaaf54",
+    "revision": "b7daa742e5457fd2febe750e4ff9f13a",
     "url": "/simple-chat-react-rss/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-chat-react-rss/static/css/2.964ba072.chunk.css"
   },
   {
-    "revision": "613be224a89cfaa38226",
-    "url": "/simple-chat-react-rss/static/css/main.b9d5a68f.chunk.css"
+    "revision": "b05cc7c5df58608898c9",
+    "url": "/simple-chat-react-rss/static/css/main.076fd6dd.chunk.css"
   },
   {
     "revision": "0afece3532d8d5785b13",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-chat-react-rss/static/js/2.5163edc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "613be224a89cfaa38226",
-    "url": "/simple-chat-react-rss/static/js/main.287adf5a.chunk.js"
+    "revision": "b05cc7c5df58608898c9",
+    "url": "/simple-chat-react-rss/static/js/main.6481ee1c.chunk.js"
   },
   {
     "revision": "b46ae0664e4d781ca102",
