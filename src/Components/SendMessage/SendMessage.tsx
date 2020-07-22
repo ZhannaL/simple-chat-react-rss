@@ -48,8 +48,8 @@ const SendMessage = () => {
           inputRef={ref}
           onKeyPress={(event) => {
             if (event.key === 'Enter') {
-              event.preventDefault();
               if (!event.shiftKey && currentMessage.length !== 0) {
+                event.preventDefault();
                 socket?.send(
                   JSON.stringify({
                     from: user.name,
